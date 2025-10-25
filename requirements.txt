@@ -4,12 +4,14 @@ setuptools>=59.5.0
 wheel>=0.37.1
 
 # 主应用依赖
-streamlit==1.19.0
-pandas==1.5.3
+streamlit==1.19.0  # Streamlit 版本需要兼容您的代码
+pandas==1.5.3      # pandas 版本以避免构建问题
 numpy==1.23.5
 matplotlib==3.7.1
 seaborn==0.11.2
 openpyxl==3.0.10
 python-dateutil==2.8.2
 
-# 可选依赖（如果你使用了其他库或
+# 如果需要其他扩展库，可以在此添加：
+# requests==2.26.0
+# sqlalchemy==1.4.32
